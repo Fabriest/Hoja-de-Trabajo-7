@@ -7,11 +7,11 @@ public class Association<K extends Comparable <K>, V> implements Comparable<Asso
         this.value = value;
     }
 
-    public K getkey(){
+    public K getKey(){
         return key;
     }
 
-    public V getvalue(){
+    public V getValue(){
         return value;
     }
 
